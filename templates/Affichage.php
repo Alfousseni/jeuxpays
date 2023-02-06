@@ -11,13 +11,12 @@ $title="Drapeaux";
 <img src="<?= $choice['url'];?>" alt="drapeau" style="display: block; margin: 0 auto;">
 
 <div class="content">
-   <form action="index.php" method="post">
+   <form action="game.php" method="post">
         <input type="hidden" name="flag_name" value="<?= $choice["name"];?>">
         <input type="text" name="answere">
         <input type="submit" value="submit" name="submit">    
    </form>
    <a href="src\des.php"><button id="but">Fin</button></a>
-
 </div>
 
 
